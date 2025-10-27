@@ -6,5 +6,4 @@ public class Dream : ScriptableObject
 {
     [SerializeField] public string sceneName;
     [SerializeField] public List<DreamCondition> conditions;
-
 }
