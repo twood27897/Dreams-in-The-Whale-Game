@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,4 +6,5 @@ public class Dream : ScriptableObject
 {
     [SerializeField] public string sceneName;
     [SerializeField] public List<DreamCondition> conditions;
+
 }
